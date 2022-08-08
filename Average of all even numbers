@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int number = 0;
+    int q;
+    int sum = 0;
+
+    for(int q = 1; q <= 10000 ; q++)
+        {
+        if(q % 2 == 0)
+        {
+        sum = sum + q;
+        number++;
+
+        }
+
+        }
+        int average = sum / number;
+        cout << endl << "The average  : " << average;
+
+
+    return 0;
+}
